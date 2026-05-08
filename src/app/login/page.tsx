@@ -6,6 +6,8 @@ import { useState } from 'react';
 
 import { login, register } from '@/lib/api';
 
+export const dynamic = 'force-dynamic';
+
 export default function LoginPage() {
   const router = useRouter();
   const searchParams = useSearchParams();

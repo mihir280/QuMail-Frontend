@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import { ComposeEmail } from '@/components/ComposeEmail';
 import { getToken } from '@/lib/api';
 
+export const dynamic = 'force-dynamic';
+
 export default function ComposePage() {
   const router = useRouter();
   const [ready, setReady] = useState(false);

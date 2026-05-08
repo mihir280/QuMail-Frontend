@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import { ReadEmail } from '@/components/ReadEmail';
 import { getToken } from '@/lib/api';
 
+export const dynamic = 'force-dynamic';
+
 type Props = { params: { emailId: string } };
 
 export default function ReadEmailPage({ params }: Props) {

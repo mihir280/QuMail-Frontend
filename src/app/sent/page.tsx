@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import { Inbox } from '@/components/Inbox';
 import { getToken } from '@/lib/api';
 
+export const dynamic = 'force-dynamic';
+
 export default function SentPage() {
   const router = useRouter();
   const searchParams = useSearchParams();

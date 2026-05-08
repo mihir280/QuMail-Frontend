@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react';
 
 import { getSentEmailById, getToken, type SentEmailItem } from '@/lib/api';
 
+export const dynamic = 'force-dynamic';
+
 type Props = { params: { emailId: string } };
 
 export default function ReadSentEmailPage({ params }: Props) {
